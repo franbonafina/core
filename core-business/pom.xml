@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>com.core</groupId>
+		<artifactId>core-parent</artifactId>
+		<version>1.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>core-business</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0</version>
+	<name>Core Business Tier</name>
+
+	<modules>
+		<module>core-service</module>
+		<module>core-service-test</module>
+	</modules>
+
+</project>

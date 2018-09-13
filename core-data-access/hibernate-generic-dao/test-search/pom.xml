@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>test-search</artifactId>
+	<packaging>jar</packaging>
+	<name>Hibernate Generic DAO - Test Search</name>
+	
+	<parent>
+		<artifactId>retcon-hibernate-genericdao-parent</artifactId>
+		<groupId>com.retcon.core</groupId>
+		<version>1.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.retcon.core</groupId>
+			<artifactId>test-base</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.retcon.core</groupId>
+			<artifactId>search</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>

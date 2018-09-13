@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>com.retcon.core</groupId>
+		<artifactId>retcon-core-business</artifactId>
+		<version>1.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>retcon-core-service-test</artifactId>
+	<packaging>jar</packaging>
+	<name>Retcon Core Service Test</name>
+
+	<dependencies>
+	
+		<!-- Retcon Core -->
+		<dependency>
+			<groupId>com.retcon.core</groupId>
+			<artifactId>retcon-core-service</artifactId>
+			<version>${retcon.core.version}</version>
+		</dependency>
+		
+		<!-- Unit Test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>${mockito.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		
+	</dependencies>
+</project>
