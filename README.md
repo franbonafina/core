@@ -1,4 +1,6 @@
-# ```Add it as DEPENDENCY to your maven POM.XML```
+###### Include to maven pom as dependency
+<img src="https://raw.githubusercontent.com/franbonafina/core-base/master/assets/pom.png" alt="<dependency> pom.xml image" />
+
 ## CORE : GENERIC DAO, SERVICES AND CONTROLLERS BEANS  
 ##### A SKELETOR MVC STRUCTURE : Abstract classes that provide a core of functionality in Java, that it's worth in every maven web project .
 ```
